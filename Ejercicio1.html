@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio 1 - Unidad 3 - Módulo 3</title>
+</head>
+
+<body>
+    <script>
+        var metros;
+
+        metros = prompt('Ingrese la distancia:', '');
+        if (metros >= 0 && metros <= 1000) {
+            document.write('Su transporte es a pie');
+        }
+        if (metros > 1000 && metros <= 10000) {
+            document.write('Su transporte es bicicleta');
+        }
+        if (metros > 10000 && metros <= 30000) {
+            document.write('Su transporte es colectivo');
+        }
+        if (metros > 30000 && metros <= 100000) {
+            document.write('Su transporte es auto');
+        }
+        if (metros > 100000) {
+            document.write('Su transporte es avión');
+        }
+    </script>
+
+</body>
+
+
+</html>
